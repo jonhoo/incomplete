@@ -1,6 +1,6 @@
 [package]
 name = "incomplete"
-version = "0.1.0"
+version = "0.1.1"
 
 description = "Provides incomplete!(), a compile-time checked version of unimplemented!()"
 readme = "README.md"

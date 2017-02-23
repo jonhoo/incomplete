@@ -39,8 +39,8 @@ you can fully complete other segments of code in the meantime.
 
 Ideally, this macro would have its own compiler lint so that the resulting error directly said
 something along the lines of "required code segment not completed". However, until RFC issue
-##1911 sees some progress, this crate hacks around the issue by "abusing" another lint and
-making it a fatal warning. The result works mostly as desired: it will only error out after all
+1911 sees some progress, this crate hacks around the issue by "abusing" another lint and making
+it a fatal warning. The result works mostly as desired: it will only error out after all
 compiler passes complete successfully, and can be evaluated either as a statement or as an
 expression.
 
