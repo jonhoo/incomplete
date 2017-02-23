@@ -42,6 +42,7 @@
 //! # Example
 //!
 //! ```rust,ignore
+//! #[macro_use] extern crate incomplete;
 //! fn foo() -> bool {
 //!     incomplete!()
 //! }
